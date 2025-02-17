@@ -40,7 +40,7 @@ ansible
 ### **1️⃣ Clone the Project**
 
 ```bash
-git clone https://github.com/sohaib1khan/python_notes_projects.git
+git clone https://github.com/sohaib1khan/Ansible_Remote_Controller.git
 cd Ansible_Remote_Controller
 ```
 
