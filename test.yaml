@@ -1,0 +1,28 @@
+- name: Gather system information
+  hosts: all
+  become: no  # No need for sudo
+
+  tasks:
+    - name: Get system uptime
+      command: uptime
+      register: uptime_result
+
+    - name: Get disk usage
+      command: df -h /
+      register: disk_usage
+
+    - name: Get memory usage
+      command: free -h
+      register: memory_usage
+
+    - name: Display system uptime
+      debug:
+        msg: "{{ uptime_result.stdout }}"
+
+    - name: Display disk usage
+      debug:
+        msg: "{{ disk_usage.stdout }}"
+
+    - name: Display memory usage
+      debug:
+        msg: "{{ memory_usage.stdout }}"
