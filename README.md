@@ -4,7 +4,7 @@ A desktop application that allows users to **store, edit, and run Ansible playbo
 
 ---
 
-## ** Features**
+## **Features**
 
 - **Graphical User Interface (GUI)** built with **PyQt6**.
 - **Playbook Management**: Create, edit, upload, and delete Ansible playbooks.
@@ -15,7 +15,7 @@ A desktop application that allows users to **store, edit, and run Ansible playbo
 
 ---
 
-## ** Requirements**
+## **Requirements**
 
 Ensure your system has the following dependencies installed:
 
@@ -60,7 +60,7 @@ This script will:
 
 ---
 
-## ** Running the Application**
+## **Running the Application**
 
 After building, launch the application using:
 
@@ -76,7 +76,7 @@ python main.py
 
 ---
 
-## ** Project Structure**
+## **Project Structure**
 
 ```
 📂 Ansible_Remote_Controller
@@ -87,7 +87,7 @@ python main.py
 
 ---
 
-## ** Troubleshooting**
+## **Troubleshooting**
 
 ### **1️⃣ "No such file or directory: 'ansible-playbook'"**
 
